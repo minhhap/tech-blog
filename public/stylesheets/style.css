@@ -160,12 +160,18 @@ main {
 .title h3 {
   background: var(--primary);
   color: var(--secondary);
-
+  height: 50px;
+  margin-top: 0;
+  padding: 12px;
 }
 
 .title span {
   font-size: small;
   float: right;
+}
+
+.post p {
+  padding: 12px;
 }
 
 .edit-link {
