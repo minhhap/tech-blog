@@ -112,6 +112,11 @@ header h1 a {
   color: var(--primary);
 }
 
+article {
+  /* border-color: var(--primary); */
+  border: 2px solid var(--primary);
+}
+
 main {
   flex: 1;
   padding: 2% 4%;
@@ -147,12 +152,20 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.post .title span {
-  font-style: italic;
-  font-size: 90%;
-  color: #7d7d7d;
+.title h3 {
+  background: var(--primary);
+  color: var(--secondary);
+
+}
+
+.title span {
+  font-size: small;
+  float: right;
 }
 
 .edit-link {
