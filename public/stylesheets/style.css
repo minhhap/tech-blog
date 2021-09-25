@@ -1,3 +1,8 @@
+:root {
+  --primary: #1a1207;
+  --secondary: rgb(198, 212, 171);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -75,20 +80,42 @@ form label {
 }
 
 header {
+  background-color: #242422;
+  height: 120px;
   border-bottom: 1px solid #ccc;
-  display: flex;
+  /* display: flex;
+  flex-direction: column; */
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
 }
 
+header nav {
+  margin-top: 20px; 
+}
+
+header nav a {
+  margin: 20px; 
+  color: var(--secondary);
+}
+
 header h1 {
-  font-size: 1em;
+  background: var(--secondary);
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  margin: 25px; 
+  border-radius: 5px;
+}
+
+header h1 a {
+  color: var(--primary);
 }
 
 main {
   flex: 1;
   padding: 2% 4%;
+  background: var(--secondary);
 }
 
 .btn-no-style {
@@ -97,7 +124,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: var(--secondary);
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;

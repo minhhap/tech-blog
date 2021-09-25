@@ -2,7 +2,7 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
+    title: 'Why MVC is so important',
     post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
     user_id: 10
   },
