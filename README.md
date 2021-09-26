@@ -13,7 +13,7 @@ The blog allows users to log in to create, edit and delete posts. They can also 
 
 ## Screenshot
 <div>
-    <img src="./public/image/tech-blog.png" width="500px"></img>
+    <img src="./public/image/tech-blog.png" width="800px"></img>
 </div>
 
 ## Deployed Link
