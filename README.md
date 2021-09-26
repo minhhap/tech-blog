@@ -1,4 +1,4 @@
-# tech-blog
+# Tech Blog
 CMS-style blog following the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 The blog allows users to log in to create, edit and delete posts. They can also click on any post to see comments as well as comment on the post.
