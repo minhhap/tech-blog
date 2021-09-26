@@ -17,7 +17,7 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: var(--secondary);
   font-weight: bold;
   transition: color .1s;
 }
@@ -191,11 +191,15 @@ main {
 
 .comment-form {
   margin-bottom: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .comment:nth-child(odd) {
