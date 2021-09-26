@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: darkolivegreen;
 }
 
 .post-list {
@@ -50,6 +50,7 @@ textarea, input {
   padding: .5%;
   border-radius: 5px;
   border: 1px solid #ccc;
+  width: 100%;
 }
 
 textarea:focus, input:focus {
@@ -221,12 +222,10 @@ main {
 
 .edit-post-form {
   margin-bottom: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-footer {
-  border-top: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  padding: 1%;
-  font-size: 110%;
+.edit-post-form button {
+  width: 100%;
 }
