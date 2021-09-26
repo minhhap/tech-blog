@@ -1,0 +1,22 @@
+<article class="post">
+  <div class="title">
+    <h3>
+      Edit Post
+    </h3>
+  </div>
+  <form class="edit-post-form">
+    <div>
+      <h4>Title</h4>
+      <input name="post-title" type="text" value="{{post.title}}" />
+      <h4>Content</h4>
+      <input id="post-url" name="post-url" type="text" value="{{post.post_url}}" />
+    </div>
+    
+    <button type="submit">Update Post</button>
+    <br>
+    <button type="button" class="delete-post-btn">Delete</button>
+  </form>
+</article>
+
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>
