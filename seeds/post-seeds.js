@@ -15,6 +15,11 @@ const postdata = [
     title: 'Object-Relational Mapping',
     post_url: "I have really loved learning about ORMs. It's really splified the way I create queries in SQL!",
     user_id: 3
+  },
+  {
+    title: 'Handlebars',
+    post_url: "Handlebars compiles templates into JavaScript functions. This makes the template execution faster than most other template engines.",
+    user_id: 4
   }
 ];
 
